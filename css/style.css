@@ -10,13 +10,29 @@ body{
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Alfa Slab One', 'cursive' ;
-font-family: 'Bebas Neue', 'cursive';
+    font-family: 'Bebas Neue', 'cursive';
 }
 a, a:hover{
     text-decoration: none;
 }
 
-/* ************************* */
+/**** title global css ****/
+.title{
+    width: 100%;
+}
+.title h2{
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 54px;
+    color:#1f4f87 ;
+    margin: 0px 0px 20px ;
+}
+
+/* title global css end */
+
+/* ************************************* */
+
 .header-section{
 background-image: url(../images/bg1.png);
 height: 647px;
@@ -42,6 +58,36 @@ color: #3d2514;
     border: 1px solid ;
     color:#f2652c;
 }
+.header-section .head-text{
+    margin: 124px 0px 0px 8px;
+}
+.header-section .head-text p{
+    font-size: 20px;
+    border: 3px solid;
+    border-style: dashed;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+    padding: 5px 0px 0px 10px;
+}
+.header-section .head-text h1{
+    font-size: 5.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One';
+    padding: 5px 0px 0px 5px;
+    text-shadow: 2px 2px #fff;
+}
+.header-section .head-text h4{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One';
+    padding: 5px 0px 0px 5px;
+    text-shadow: 2px 2px #fff;
+}
+
+/* ---------------header section end here------------------ */
+
 .slider{
     width: 100%;
 }
@@ -61,31 +107,106 @@ line-height: 64px;
     font-size: 30px;
 }
 
-/**** title global css ****/
-.title{
-    width: 100%;
-}
-.title h2{
-    font-size: 44px;
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 54px;
-    color:#1f4f87 ;
-    margin: 0px 0px 20px ;
-}
+/* ----------section-popular start-------- */
 
-/* title global css end */
-
+.section-popular{
+    margin-top: 45px;
+}
+.section-popular .pop2{
+    position: relative;
+    color: white;
+}
+.section-popular .pop2 .text h4{
+    font-size: 1.3rem;
+    position: absolute;
+    top: 34px;
+    left: 42px;
+}
+.section-popular .pop2 .text h2{
+    position: absolute;
+    top: 60px;
+    left: 42px;
+}
 .section-popular .pop2 img{
     width: 100%;
-    position: relative;
     margin: 9px 0px 0px 9px;
     padding: 5px;
+}
+.section-popular .pop3{
+    position: relative;
+    color: white;
+}
+.section-popular .pop3 .text h4{
+    font-size: 1.3rem;
+    position: absolute;
+    top: 34px;
+    left: 42px;
+}
+.section-popular .pop3 .text h2{
+    position: absolute;
+    top: 60px;
+    left: 42px;
+}
+.section-popular .pop3 .text .ho{
+    position: absolute;
+    top: 90px;
+    left: 42px;
+}
+.section-popular .pop3 .text2 h4{
+    font-size: 1.3rem;
+    position: absolute;
+    top: 230px;
+    left: 42px;
+}
+.section-popular .pop3 .text2 h2{
+    position: absolute;
+    top: 260px;
+    left: 42px;
 }
 .section-popular .pop3 img{
     width: 100%;
     position: relative;
     margin: 10px 0px 5px 5px;
     padding: 5px;
-
 }
+/* ----------section-popular end-------- */
+
+/* ----------offer-section start here------- */
+.offer-section{
+    margin-top: 50px;
+}
+
+.offer-section .text{
+    text-align: center;
+    color: #3d2514;
+}
+.offer-section .text h4 span{
+    padding: 8px 25px;
+    background: #ffc045;
+    text-transform: uppercase;
+}
+.offer-section .text h1{
+    margin-top: 30px;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+}
+.offer-section .card{
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    border-style: none;
+}
+.offer-section .card img{
+    width: 100% ;
+    height: 600px;
+    margin-bottom: 10px;
+}
+.offer-section .card .btn{
+    color: white;
+    background: red;
+    font-family: 'Alfa Slab One';
+    text-transform: uppercase;
+    border-radius: 0px;
+    padding: 5px 20px;
+}
+/* ----------offer-section end here------- */
