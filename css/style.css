@@ -180,6 +180,11 @@ color: #3d2514;
     text-align: center;
     border-style: none;
     margin: 20px 5px 30px;
+    transition: 0.4s;
+}
+.offer-section .card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color:#3d2514 ;
 }
 .offer-section .card img{
     width: 100% ;
@@ -194,6 +199,10 @@ color: #3d2514;
     border-radius: 0px;
     padding: 5px 20px;
 }
+
+
+
+
 /* ----------offer-section end here------- */
 
 /* ---------section-carsl start--------------- */
