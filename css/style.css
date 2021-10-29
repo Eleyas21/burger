@@ -21,11 +21,12 @@ a, a:hover{
     width: 100%;
 }
 .title h2{
+    font-family: 'Alfa Slab One';
     font-size: 44px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 54px;
-    color:#1f4f87 ;
+    color: #3d2514;
     margin: 0px 0px 20px ;
 }
 
@@ -88,24 +89,6 @@ color: #3d2514;
 
 /* ---------------header section end here------------------ */
 
-.slider{
-    width: 100%;
-}
-.slider .carousel-caption{
-    bottom: 30%;
-}
-.slider .carousel-caption h1{
-font-size: 54px;
-font-weight: 600;
-text-transform: uppercase;
-line-height: 64px;
-}
-
-.slider .carousel-caption .fa{
-    position:absolute;
-    bottom:-100px;
-    font-size: 30px;
-}
 
 /* ----------section-popular start-------- */
 
@@ -195,6 +178,7 @@ line-height: 64px;
     height: 450px;
     text-align: center;
     border-style: none;
+    margin: 20px 5px 30px;
 }
 .offer-section .card img{
     width: 100% ;
@@ -203,10 +187,70 @@ line-height: 64px;
 }
 .offer-section .card .btn{
     color: white;
-    background: red;
+    background: #bf2222;
     font-family: 'Alfa Slab One';
     text-transform: uppercase;
     border-radius: 0px;
     padding: 5px 20px;
 }
 /* ----------offer-section end here------- */
+
+/* ---------section-carsl start--------------- */
+.section-carsl{
+    width: 100%;
+    margin: 20px 5px 60px 5px;
+    padding: 5px 7px 5px 9px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.section-carsl .carousel-captionn{
+    text-align: left;
+}
+.section-carsl img{
+    width: 100%;
+    height: 350px;
+    margin: 5px;
+}
+/* ---------section-carsl end--------------- */
+
+/* ---------contact-us start here-------- */
+
+.contact-us{
+    position: relative;
+    text-align: center;
+    background-image: url(../images/sec4.png);
+    height: 647px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #3d2514;
+    
+}
+.contact-us .title{
+    margin-top: 45px;
+}
+.contact-us .box1{
+    text-align: right;
+    text-transform: uppercase;
+    
+}
+.contact-us .box2{
+    text-align: left;
+    text-transform: uppercase;
+    
+}
+.contact-us input{
+    padding: 5px 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.contact-us .box2 .btn{
+    font-family: 'Alfa Slab One';
+    padding: 5px 78px;
+    margin-top: 20px;
+    background: #bf2222;
+    text-transform: uppercase;
+}
+
+/* ---------footer css start--------- */
+
